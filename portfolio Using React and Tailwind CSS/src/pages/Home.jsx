@@ -117,12 +117,12 @@ function Home() {
               <p className="font-bold text-[11px]">Problem Solve</p>
             </div>
 
-            <div className="problemsolve text-gray-500 flex flex-col items-center">
+            <div className="contests text-gray-500 flex flex-col items-center">
               <p className="font-bold">8+</p>
               <p className="font-bold text-[11px]">Contests Participated</p>
             </div>
 
-            <div className="problemsolve text-gray-500 flex flex-col items-center">
+            <div className="consistency text-gray-500 flex flex-col items-center">
               <p className="font-bold">50+</p>
               <p className="font-bold text-[11px]">Days of Consistency</p>
             </div>
