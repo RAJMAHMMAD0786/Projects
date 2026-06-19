@@ -5,6 +5,7 @@ function About() {
   return (
     <div className="Aboutpage bg-slate-950 h-[85vh] px-7 py-3">
 
+      {/* This is the left parts of the page */}
       <div className="leftpart">
 
         {/* This is the Heading of the left part */}
@@ -17,6 +18,7 @@ function About() {
 
       </div>
 
+      {/* This is the right parts of the heading */}
       <div className="rightpart">
 
       </div>

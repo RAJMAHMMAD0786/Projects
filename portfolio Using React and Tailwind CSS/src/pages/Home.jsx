@@ -13,34 +13,34 @@ import { MdContactPhone } from "react-icons/md";
 
 function Home() {
   return (
-    <div className="homepage h-[85vh] bg-slate-950 flex ">
+    <div className="homepage h-[85vh] bg-slate-950 flex max-[750px]:h-[90vh]">
 
       {/* This is the left part of the home page  */}
-      <div className="leftpart w-[50%]  pt-19 pl-10 flex flex-col gap-2 max-[750px]:pt-1 max-[750px]:pl-1">
+      <div className="leftpart w-[50%]  pt-19 pl-10 flex flex-col gap-2 max-[750px]:pt-10 max-[750px]:pl-5">
 
         {/* This is the paragraph  */}
         <p className="text-white max-[750px]:text-xl max-[750px]:pt-1">Hi, I'm</p>
 
         {/* This is the name of the students */}
         <div className="name">
-          <h1 className="text-white font-bold text-3xl max-[750px]:text-xl">Raj <span className="text-blue-700 font-bold text-3xl max-[750px]:text-xl">Mahmmad</span></h1>
+          <h1 className="text-white font-bold text-3xl max-[750px]:text-2xl">Raj <span className="text-blue-700 font-bold text-3xl max-[750px]:text-2xl">Mahmmad</span></h1>
         </div>
 
         {/* This is the Aim of the Students */}
         <div className="Aim">
-          <h2 className="text-white text-xl max-[750px]:text-sm">B.Tech CSE Student | Aspiring <span className="text-blue-500 text-xl max-[750px]:text-sm">Full-Stack Developer</span></h2>
+          <h2 className="text-white text-xl max-[750px]:text-sm max-[750px]:pt-3">B.Tech CSE Student | Aspiring <span className="text-blue-500 text-xl max-[750px]:text-xl">Full-Stack Developer</span></h2>
         </div>
 
         {/* This is the About of the Students  */}
         <div className="About">
-          <p className="text-white text-md max-[750px]:text-xs">Computer Science student skilled in <span className="text-blue-500 text-md"> C++, Data Structures & Algorithms (DSA), HTML, CSS, JavaScript, and React</span>. Solved 90+ LeetCode problems and passionate about building responsive web applications and enhancing user experiences through modern frontend development. </p>
+          <p className="text-white text-md max-[750px]:text-md max-[750px]:pt-3">Computer Science student skilled in <span className="text-blue-500 text-md"> C++, Data Structures & Algorithms (DSA), HTML, CSS, JavaScript, and React</span>. Solved 90+ LeetCode problems and passionate about building responsive web applications and enhancing user experiences through modern frontend development. </p>
         </div>
 
         {/* This is the parts of the view project and contact me */}
         <div className="ProjectContact">
 
           {/* This is the buttons part */}
-          <div className="buttons flex gap-11 mt-11 max-[750px]:mt-3 max-[750px]:gap-5">
+          <div className="buttons flex gap-11 mt-11 max-[750px]:mt-7 max-[750px]:gap-5">
 
             {/* This is the project view buttons  */}
             <div className="projectbutton">
@@ -66,9 +66,9 @@ function Home() {
 
         {/* This is way to connect the Students */}
         <div className="connect">
-          <h3 className="text-white pt-11 font-bold max-[750px]:pt-3">Connect With Me</h3>
+          <h3 className="text-white pt-11 font-bold max-[750px]:pt-7 max-[750px]:text-md">Connect With Me</h3>
 
-          <div className="flex gap-7 mt-4 pl-10 max-[750px]:gap-3 max-[750px]:mt-2">
+          <div className="flex gap-7 mt-4 pl-10 max-[750px]:gap-5 max-[750px]:mt-5">
             {/* This is way to visit Students linkedin profile */}
             <a href="https://www.linkedin.com/in/rajmahmmad0786/" target="_blank" rel="noopener noreferrer" className="text-blue-500 text-3xl hover:cursor-pointer hover:scale-110 transition-all duration-300 max-[750px]:text-xl"> <FaLinkedin /> </a>
 
@@ -90,7 +90,7 @@ function Home() {
       </div>
 
       {/* This is the right part of the home page */}
-      <div className="rightpart pl-80 pt-15 max-[750px]:pl-3 max-[750px]:pr-0 max-[750px]:pt-1">
+      <div className="rightpart pl-80 pt-15 max-[750px]:pl-5 max-[750px]:pr-0 max-[750px]:pt-10">
 
         <div className="relative inline-block">
 

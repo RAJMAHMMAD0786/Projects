@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
 import { IoMdDownload } from "react-icons/io";
 
 function Navbar() {
@@ -17,12 +18,20 @@ function Navbar() {
                 </h2>
             </div>
 
-            {/* This is the parts of the link  */}
-            <Link to="/" className="hover:text-blue-500 hover:underline">Home</Link>
-            <Link to="/about" className="hover:text-blue-500 hover:underline">About</Link>
-            <Link to="/skills" className="hover:text-blue-500 hover:underline">Skills</Link>
-            <Link to="/projects" className="hover:text-blue-500 hover:underline">Projects</Link>
-            <Link to="/contact" className="hover:text-blue-500 hover:underline">Contact</Link>
+            {/* This is used for link the Home ,About etc on the nav bar, Isaka used isiliye bkiya jata hai because isako used karne se page realod nahi hota hai  */}
+            <NavLink to="/" className={({ isActive }) =>
+                `hover:underline hover:text-white ${isActive ? "bg-blue-500 text-white rounded-sm px-1" : ""}`}>Home</NavLink>
+
+            <NavLink to="/about" className={({ isActive }) =>
+                `hover:underline hover:text-white ${isActive ? "bg-blue-500 text-white rounded-sm px-1" : ""}`}>About</NavLink>
+
+            <NavLink to="/skills" className={({ isActive }) =>
+                `hover:underline hover:text-white ${isActive ? "bg-blue-500 text-white rounded-sm px-1" : ""}`}>Skills</NavLink>
+            <NavLink to="/projects" className={({ isActive }) =>
+                `hover:underline hover:text-white ${isActive ? "bg-blue-500 text-white rounded-sm px-1" : ""}`}>Projects</NavLink>
+            <NavLink to="/contact" className={({ isActive }) =>
+                `hover:underline hover:text-white ${isActive ? "bg-blue-500 text-white rounded-sm px-1" : ""}`}>Contact</NavLink>
+
 
             {/* This is the Resume */}
             <a href="/RajMahmmad_Frontend.pdf" download className="flex items-center gap-3 bg-[#000206] text-blue-700 px-4 py-2 border border-2px solid to-blue-700 rounded-xl  hover:cursor-pointer hover:bg-[#1242a26c] hover:underline max-[750px]:px-1 max-[450px]:py-1" > <IoMdDownload /> Download Resume </a>
