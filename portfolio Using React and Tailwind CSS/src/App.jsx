@@ -12,6 +12,7 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <BrowserRouter>
+    {/* Import the Navbar */}
       <Navbar />
 
       {/* Routes yek container hota hai jaha pe sare Routes likha jata hai, jaise ki aap dekh rahe hai niche  */}
@@ -23,6 +24,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
+      {/* Import the Footer */}
       <Footer />
 
       {/* Ye poori application ko routing ki power deta hai. Simple Language mai BrowserRouter URL ko monitor karta hai. and batata hai ki kaun sa page render hoga and kaun sa page render nahi hoga. */}
