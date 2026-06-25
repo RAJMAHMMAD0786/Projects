@@ -27,7 +27,7 @@ function Skills() {
     <div className="Skillspage h-[85vh] bg-slate-950 max-[750px]:h-[90vh]">
 
       {/* This is the parts of techanical skills  */}
-      <div className="TechnicalSkills w-[80%] m-auto max-[750px]:w-[99]">
+      <div className="TechnicalSkills w-[80%] m-auto max-[750px]:w-full">
 
         {/* heading of this page */}
         <div className="heading pl-24 pt-5 max-[750px]:pl-1">
@@ -47,7 +47,7 @@ function Skills() {
 
 
         {/* I Study these programing language */}
-        <div className="ProgramingLanguage">
+        <div className="ProgramingLanguage flex-wrap">
 
           {/* This is the heading of the programing language */}
           <div className="programinglanguageheading">
@@ -57,7 +57,7 @@ function Skills() {
 
 
           {/* This programing language Study and learn  */}
-          <div className="programinglanguagecompleted ml-24 flex gap-5 max-[750px]:ml-1 max-[750px]:gap-2">
+          <div className="programinglanguagecompleted flex-wrap ml-24 flex gap-5 max-[750px]:ml-1 max-[750px]:gap-2">
 
             {/* This is the cpp */}
             <div className="cpp text-white w-72 h-16 bg-[#06152B]  mt-3 rounded-xl flex gap-3 items-center hover:cursor-pointer hover:font-bold max-[750px]:w-32 max-[750px]:text-xs">
@@ -214,7 +214,7 @@ function Skills() {
 
 
           {/* This Backend Development Study and learn  */}
-          <div className="BackendDevelopmentcompleted ml-24 flex gap-5 max-[750px]:ml-1 max-[750px]:gap-2">
+          <div className="BackendDevelopmentcompleted flex-wrap ml-24 flex gap-5 max-[750px]:ml-1 max-[750px]:gap-2">
 
             {/* This is the Node.js */}
             <div className="Nodejs text-white w-72 h-16 bg-[#06152B]  mt-3 rounded-xl flex gap-3 items-center hover:cursor-pointer hover:font-bold max-[750px]:w-32 max-[750px]:text-xs">
