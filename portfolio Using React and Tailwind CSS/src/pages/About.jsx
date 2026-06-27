@@ -58,25 +58,25 @@ function About() {
             <div className="codechefinfo mt-3 flex  max-[750px]:flex-wrap max-[750px]:gap-1">
 
               {/* Problem solve  */}
-              <div className="problemsolvebox w-36 h-16 bg-[#071B36] border border-[#0E2A52] text-gray-500 ml-7 rounded-md  max-[750px]:w-20  max-[750px]:h-16 max-[750px]:text-xs max-[750px]:pl-1 max-[750px]:ml-1">
+              <div className="problemsolvebox w-36 h-16 bg-[#071B36] border border-[#0E2A52] text-gray-500 ml-7 rounded-md  max-[750px]:w-18  max-[750px]:h-16 max-[750px]:text-xs max-[750px]:pl-1 max-[750px]:ml-1">
                 <p className="font-bold pl-14 text-blue-500 hover:cursor-pointer max-[750px]:pl-5">750+</p>
                 <p className="font-bold text-[11px] pl-9 pt-1 hover:cursor-pointer max-[750px]:pl-2">Problem Solve</p>
               </div>
 
               {/* contests */}
-              <div className="problemsolvebox w-36 h-16 bg-[#071B36] border border-[#0E2A52] text-gray-500 ml-7 rounded-md  max-[750px]:w-20  max-[750px]:h-16 max-[750px]:text-xs max-[750px]:pl-1 max-[750px]:ml-1">
+              <div className="problemsolvebox w-36 h-16 bg-[#071B36] border border-[#0E2A52] text-gray-500 ml-7 rounded-md  max-[750px]:w-18  max-[750px]:h-16 max-[750px]:text-xs max-[750px]:pl-1 max-[750px]:ml-1">
                 <p className="font-bold pl-14 text-blue-500 hover:cursor-pointer max-[750px]:pl-5">8+</p>
                 <p className="font-bold text-[11px] pl-9 pt-1 hover:cursor-pointer max-[750px]:pl-2">Contests</p>
               </div>
 
               {/* Maintaining streak */}
-              <div className="problemsolvebox w-36 h-16 bg-[#071B36] border border-[#0E2A52] text-gray-500 ml-7 rounded-md max-[750px]:w-20  max-[750px]:h-16 max-[750px]:text-xs max-[750px]:pl-1 max-[750px]:ml-1 max-[750px]:mt-3">
+              <div className="problemsolvebox w-36 h-16 bg-[#071B36] border border-[#0E2A52] text-gray-500 ml-7 rounded-md max-[750px]:w-18  max-[750px]:h-16 max-[750px]:text-xs max-[750px]:pl-1 max-[750px]:ml-1 max-[750px]:mt-3">
                 <p className="font-bold pl-14 text-blue-500 hover:cursor-pointer max-[750px]:pl-5">50+</p>
                 <p className="font-bold text-[11px] pl-9 pt-1 hover:cursor-pointer max-[750px]:pl-2">Maintaining streak</p>
               </div>
 
               {/* CodeChef Rating */}
-              <div className="problemsolvebox w-36 h-16 bg-[#071B36] border border-[#0E2A52] text-gray-500 ml-7 rounded-md max-[750px]:w-20  max-[750px]:h-16 max-[750px]:text-xs max-[750px]:pl-1 max-[750px]:ml-1 max-[750px]:mt-3">
+              <div className="problemsolvebox w-36 h-16 bg-[#071B36] border border-[#0E2A52] text-gray-500 ml-7 rounded-md max-[750px]:w-18  max-[750px]:h-16 max-[750px]:text-xs max-[750px]:pl-1 max-[750px]:ml-1 max-[750px]:mt-3">
                 <p className="font-bold pl-14 text-blue-500 hover:cursor-pointer max-[750px]:pl-5">1136</p>
                 <p className="font-bold text-[11px] pl-9 pt-1 hover:cursor-pointer max-[750px]:pl-2">CodeChef Rating</p>
               </div>

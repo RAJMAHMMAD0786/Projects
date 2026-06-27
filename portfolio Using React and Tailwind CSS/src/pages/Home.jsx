@@ -110,21 +110,21 @@ function Home() {
             <h3 className="text-white pt-11 font-bold max-[750px]:pt-3">CodeChef Stats</h3>
           </div>
 
-          <div className="codechefbox flex justify-center items-center gap-3 w-auto h-16 bg-[#07111F] border border-[#16202f] rounded-xl mt-5 max-[750px]:text-11px max-[750px]:w-48 max-[750px]:mt-1">
+          <div className="codechefbox flex justify-center items-center gap-3 w-auto h-16 bg-[#07111F] border border-[#16202f] rounded-xl mt-5 max-[750px]:text-11px max-[750px]:w-44 max-[750px]:mt-1">
 
             <div className="problemsolve text-gray-500 flex flex-col items-center">
               <p className="font-bold">750+</p>
-              <p className="font-bold text-[11px]">Problem Solve</p>
+              <p className="font-bold text-[11px] max-[750px]:text-[7px]">Problem Solve</p>
             </div>
 
             <div className="contests text-gray-500 flex flex-col items-center">
               <p className="font-bold">8+</p>
-              <p className="font-bold text-[11px]">Contests Participated</p>
+              <p className="font-bold text-[11px] max-[750px]:text-[7px]">Contests Participated</p>
             </div>
 
             <div className="consistency text-gray-500 flex flex-col items-center">
               <p className="font-bold">50+</p>
-              <p className="font-bold text-[11px]">Days of Consistency</p>
+              <p className="font-bold text-[11px] max-[750px]:text-[7px]">Days of Consistency</p>
             </div>
 
           </div>
